@@ -14,6 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+            
+        // 프로세스의 진행을 멈춰 시작 화면이 표시되는 시간을 늘려주는 역할
+        // sleep(5)는 5초간 앱을 잠들게 한다는 뜻-> 앱 실행을 지연시키는 역할
+        sleep(5)
         return true
     }
 
